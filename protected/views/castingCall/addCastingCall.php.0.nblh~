@@ -1,0 +1,309 @@
+
+
+
+<style>
+
+    .c3_input:hover{
+        cursor: text;
+    }
+
+    .language_input:focus {
+        border-color: rgba(82, 168, 236, 0.8);
+        outline: 0;
+        outline: thin dotted \9;
+        /* IE6-9 */
+
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    }
+
+    .language_input input {
+        border:0px;
+        -webkit-box-shadow: 0 0 0;
+        -moz-box-shadow: 0 0 0;
+        box-shadow: 0 0 0;
+        width:auto
+    }
+
+    .language_input input:focus{
+        border:0px;
+        -webkit-box-shadow: 0 0 0;
+        -moz-box-shadow: 0 0 0;
+        box-shadow: 0 0 0;
+    }
+
+    .language_input .label {
+        margin:2px;
+        padding-left:5px;
+        padding-right:5px;
+        width:auto;
+    }
+
+    .language_input .label span:hover {
+        color:#FFA8C7;
+        cursor:pointer;
+    }
+
+    .language_input .label span {
+        font-size:18px; 
+        position:relative;
+        top:1px;
+        margin-left:5px;
+    }
+
+    .profile th{
+        text-align:left;
+        vertical-align: top;
+        width:75px;
+    }
+
+    .profile td{
+        text-align:left;
+    }
+
+    .crop { width: 260px; height: 180px; overflow: hidden; }
+    .crop img { max-width:100%; margin: -18% 0 0 0; }
+
+    .line {
+        margin-bottom:10px;
+    }
+
+</style>
+
+<!-- Select2 Plugin -->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/lib/select2/select2.js"></script>
+<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/js/lib/select2/select2.css" />
+
+<!-- country list -->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/countries.js"></script>
+
+<!-- language list -->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/languages.js"></script>
+
+<!-- Datepicker Plugin -->
+<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/js/lib/datepicker/datepicker.css" />
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/lib/datepicker/bootstrap-datepicker.js"></script>
+
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/controllers/production/casting_call_ctrl.js"></script>
+
+
+<script>
+    jsonCastingCall = <?php print_r(CJSON::encode($castingCall)) ?>;
+    jsonLanguageProficiencies = <?php print_r(CJSON::encode($proficiencies)); ?>;
+</script>
+
+<script>
+    $(function(){
+        ccc.init();
+    });
+</script>
+
+
+<span ng-controller="casting_call_ctrl">
+
+    <?php
+    $form = $this->beginWidget('CActiveForm', array(
+        'id' => 'edit-portfolio-form',
+        'enableClientValidation' => false,
+        'clientOptions' => array(
+            'validateOnSubmit' => true,
+        ),
+            ));
+    ?>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4">
+                <a id="c3_profilepic" class="thumbnail" style="height:450px;width:293px;text-decoration:none" ng-click="changeProfilePic()">
+                    <img ng-hide="!castingCall.photoUrl" class="c3-profilepic" style='width:100%' ng-src="{{photoBaseUrl + '/' + castingCall.photoUrl}}">
+                    <div class="addImage" ng-show="!castingCall.photoUrl">
+                        <h6>+</h6>
+                        <h6>Add Image</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="span8">
+                <div class="row-fluid line">
+                    <div class="span9">
+                        <h1>New Casting Call</h1>
+                    </div>
+                    <div class="span3">
+                        <a class="btn btn-medium pull-right" ng-click="submitForm()"/><i class="icon-check"></i> Save Changes</a>
+                    </div>   
+                </div>
+
+                <div class="row">
+                    <ul class="nav nav-tabs" style="margin-left:20px;">
+                        <li class="active"><a href="#epCastingCall" data-toggle="tab"><i class="icon-star"></i> Casting Call Info</a></li>
+                        <li><a href="#epCharacters" data-toggle="tab"><i class="icon-user"></i> Character Info</a></li>
+                    </ul>
+
+                    <div class="tab-content" style="height:auto;padding-left:20px">
+
+                        <div class="tab-pane fade active in" id="epCastingCall">
+
+                            <table class="profile table-condensed">    
+                                <tr><th>Title</th><td><?php echo $form->textField($castingCall, 'title'); ?></td></tr>
+                                <tr><th>Description</th><td><?php echo $form->textArea($castingCall, 'desc', array('style' => 'width:550px;height:100px;')); ?></td></tr>
+                                <tr><th>Location</th><td><?php echo $form->textField($castingCall, 'location', array('id' => 'location', 'style' => 'width:250px')); ?></td></tr>                               
+                            </table>
+                            <br/>
+                            <h6 class="line"><i class="icon-calendar"></i>Audition Dates</h6>
+                            <table class="profile table-condensed">    
+
+                                <tr><th>From</th><td>
+                                        <input id="audition_start" name="CastingCall[audition_start]" class="c3datepicker" size="16" type="text" placeholder="dd/mm/yyyy" type="text" value="<?php echo $castingCall->audition_start; ?>">
+                                    </td>
+                                    <th>To</th><td>  
+                                        <input id="audition_end" name="CastingCall[audition_start]" class="c3datepicker" size="16" type="text" placeholder="dd/mm/yyyy" type="text" value="<?php echo $castingCall->audition_end; ?>">
+                                    </td></tr>
+                            </table>
+                            <br/>
+                            <h6 class="line"><i class="icon-calendar"></i>Project Duration</h6>
+                            <table class="profile table-condensed">    
+
+                                <tr><th>From</th><td>
+                                        <input id="project_start" name="CastingCall[audition_start]" class="c3datepicker" size="16" type="text" placeholder="dd/mm/yyyy" type="text" value="<?php echo $castingCall->project_start; ?>">
+                                    </td>
+                                    <th>To</th><td>  
+                                        <input id="project_end" name="CastingCall[audition_start]" class="c3datepicker" size="16" type="text" placeholder="dd/mm/yyyy" type="text" value="<?php echo $castingCall->project_end; ?>">
+                                    </td></tr>
+                            </table>
+                        </div>
+
+                        <div class="tab-pane fade" id="epCharacters">
+                            <div ng-show="characters.length == 0">
+                                <div class="hero-unit">
+                                    <h1>Looks like nobody's acting!</h1>
+                                    <br/><br/>
+                                    <a class="btn btn-primary btn-large" ng-click="addCharacter()">+ Add Character</a>
+                                </div>
+                            </div>
+                            <div ng-show="characters.length > 0" class="row-fluid" >
+                                <div class="tabbable tabs-left">
+                                    <span class="span3">
+                                        <div class="row-fluid line"><span class="span4"><a class="btn btn-mini" ng-click="addCharacter()"> + Add </a></span><span class="span8"><h4>Characters</h4></span></div>
+
+                                        <ul id="c3_ccc_character_tabs" class="nav nav-pills nav-stacked">
+                                            <li ng-repeat="character in characters">
+                                                <a href="#ccc_{{$index}}" data-toggle="tab">                             
+                                                    <button class="close" ng-click="deleteCharacter($index)">×</button> <h4 style="min-height:18px;">{{character.name}}</h4>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span><span class="span9">
+                                        <br/>
+                                        <div class="tab-content" style="height:auto">
+                                            <div class="tab-pane fade" id="ccc_{{$index}}" ng-repeat="character in characters" style="min-height:1000px">
+                                                <div class="well">
+                                                    <table class="profile table-condensed">
+                                                        <tr ng-repeat="error in character.errors.name"><td colspan="2">{{error}}</td></tr>
+                                                        <tr><th>Name</th><td><input type="text" ng-model="character.name"/></td></tr>
+                                                        <tr><th>Description</th><td><textarea style="min-width:350px; min-height:150px"  ng-model="character.desc"></textarea></td></tr>
+                                                    </table>
+                                                </div>
+                                                <br/>
+                                                <div class="row-fluid line">
+                                                    <span class="span7"><h4><i class="icon-search"></i> Requirements</h4></span>
+                                                    <span class="span5">
+                                                        <div class="btn-group pull-right" style="position:relative;top:-5px;">
+                                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                                + Add Requirement
+                                                                <span class="caret"></span>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a ng-click="setRequirement($index,'age',true)">Age</a></li>
+                                                                <li><a ng-click="setRequirement($index,'gender',true)">Gender</a></li>
+                                                                <li><a ng-click="setRequirement($index,'language',true)">Spoken Languages</a></li>
+                                                                <li><a ng-click="setRequirement($index,'nationality',true)">Nationality</a></li>
+                                                                <li><a ng-click="setRequirement($index,'ethnicity',true)">Ethnicity</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </span>
+
+                                                </div>
+                                                
+                                                <!-- 
+                                                    Age Requirement
+                                                -->
+                                                <div class="well" ng-show="character.ageRequirement">
+                                                    <div class="span11">
+                                                        <table class="profile table-condensed">
+                                                            <tr><th>Age</th><td>From <input style="width:70px" type="text" ng-model="character.ageStart" placeholder="start" />&nbsp; To  <input style="width:70px" type="text" ng-model="character.ageEnd" placeholder="end" /></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <a class="close" ng-click="setRequirement($index,'age',false)">×</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- 
+                                                    Gender Requirement 
+                                                -->
+                                                <div class="well" ng-show="character.genderRequirement">
+                                                    <div class="span11">
+                                                        <table class="profile table-condensed">
+                                                            <tr><th>Gender</th><td>Male <input type="radio" ng-model="character.gender" value="Male"/>&nbsp; Female <input type="radio" ng-model="character.gender" value="Female"/></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <a class="close" ng-click="setRequirement($index,'gender',false)">×</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- 
+                                                    Languages Requirement
+                                                -->
+                                                <div class="well" style="height:80px" ng-show="character.languageRequirement">
+                                                    <div class="span11">
+                                                        <table class="profile table-condensed">
+                                                            <tr><th>Languages</th><td><input type="hidden" id="accLanguages_{{$index}}" style='width:300px;' val=""/></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <a class="close" ng-click="setRequirement($index,'language',false)">×</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- 
+                                                    Nationality Requirement
+                                                -->
+                                                <div class="well" style="height:50px" ng-show="character.nationalityRequirement">
+                                                    <div class="span11">
+                                                        <table class="profile table-condensed">
+                                                            <tr><th>Nationality</th><td><input type="hidden" id="accNationality_{{$index}}" style='width:300px;' val=""/></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <a class="close" ng-click="setRequirement($index,'nationality',false)">×</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- 
+                                                    Ethnicity Requirement
+                                                -->
+                                                <div class="well" style="height:50px" ng-show="character.ethnicityRequirement">
+                                                    <div class="span11">
+                                                        <table class="profile table-condensed">
+                                                            <tr><th>Ethnicity</th><td><input type="hidden" id="accEthnicity_{{$index}}" style='width:300px;' val=""/></td></tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="span1">
+                                                        <a class="close" ng-click="setRequirement($index,'ethnicity',false)">×</a>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php $this->endWidget(); ?>
+</span>

@@ -1,0 +1,199 @@
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:53 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:53 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:53 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:54 - INFO --> <<Character->search>> begin 
+2012-08-12 15:49:54 - INFO --> <<Character->search>> begin 
+2012-08-12 15:49:54 - INFO --> <<Character->search>> begin 
+2012-08-12 15:49:54 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 15:49:54 - INFO --> <<Character->search>> begin 
+2012-08-12 15:49:54 - INFO --> <<Character->search>> begin 
+2012-08-12 15:49:54 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:54 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:54 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:54 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:54 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecryptWithDefaultKey>> begin 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecryptWithDefaultKey>> ciphertext :OOd65C82M3ZgdQI5jHUNF1b1Wl8JlD1d74+kwQjsf7YlawJEACYxhBj1uo4z//N7/NiPRiZlZFQ= 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecryptWithDefaultKey>> ciphertext2 :OOd65C82M3bsdaglhrUuu1b1Wl8JlD1d74+kwQjsf7YlawJEACYxhBj1uo4z//N7/NiPRiZlZFQ= 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecryptWithDefaultKey>> decrypted :!@#%*&#!^$ 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecrypt>> begin 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecrypt>> ciphertext :HX95lnoCcM/SUcx3AmC5Kz5rFS7sjg0/mb3U+dg7yrzOVc8KjilVhRWO2TYAZAOQkNDjR6GTIVE= 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecrypt>> ciphertext2 :HX95lnoCcM8XBjcHfVmjWz5rFS7sjg0/mb3U+dg7yrzOVc8KjilVhRWO2TYAZAOQkNDjR6GTIVE= 
+2012-08-12 15:49:55 - INFO --> <<CryptoUtilTest->testEncryptAndDecrypt>> decrypted :!@#%*&#!^$ 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - ERROR --> <<FavouriteArtistePortfolio->set>> Cannot Add Favourite: Record Already Exists 
+2012-08-12 15:49:55 - INFO --> <<FavouriteArtistePortfolio->set>> begin 
+2012-08-12 15:49:55 - ERROR --> <<FavouriteArtistePortfolio->set>> Cannot Remove Favourite: Record Does Not Exist 
+2012-08-12 15:49:55 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:55 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:55 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:55 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:56 - ERROR --> <<UserIdentity->authenticate>> Passwords do not match 
+2012-08-12 15:49:56 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:56 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> begin 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> before save 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> user:1 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> search 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Reset Password requested for : timberwerkz@timberwerkz.com 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Reset Password request userid: 1 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Generate Reset Password Token: foo8NyJYwSeaijwRXjlqlyE2ENufHRu2k9pn1vkCrlGyj9TJJ1yx5qq7qchUwncKCLDL1kYjAwEE2QN5S0Xwlbq5pjsCy2iW3Ryl 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> begin 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> before save 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> user:1 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> search 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Reset Password requested for : timberwerkz@timberwerkz.com 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Reset Password request userid: 1 
+2012-08-12 15:49:56 - INFO --> <<PasswordResetToken->beforeSave>> Generate Reset Password Token: NRj9p1aNkaejyBUnpEDvBjPmN8BaFO7491IQtvKOqdIBr5oXHkxdvbKEA72WpEcEGSDZJjQHJXKY9qV9686E3LcYKxEKmwVGllWb 
+2012-08-12 15:49:56 - INFO --> <<LoginForm->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserIdentity->authenticate>> Authentication Successful 
+2012-08-12 15:49:56 - INFO --> <<Photo->checkFile>> begin 
+2012-08-12 15:49:56 - INFO --> <<Photo->checkFile>> values x1: x2: y1: y2: width: height :  ext :  url: /photourl.jpg 
+2012-08-12 15:49:56 - INFO --> <<Photo->checkFile>> begin 
+2012-08-12 15:49:56 - INFO --> <<Photo->checkFile>> values x1: x2: y1: y2: width: height :  ext :  url: /photourl.jpg 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->beforeSave>> Scenario is : insert 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->beforeSave>> Password plaintext is timberwerkz 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->beforeSave>> Password hash is d14cb95f68389a87cfe7dffcb23ea4f87a0438a15b4c51f81ddbdd9b6554b7c0 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->afterSave>> Scenario is : insert 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:56 - INFO --> <<UserAccount->afterSave>> Creating ArtistePortfolio 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : update 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password plaintext is timberwerkz 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password hash is d14cb95f68389a87cfe7dffcb23ea4f87a0438a15b4c51f81ddbdd9b6554b7c0 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 2 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Creating ProductionHousePortfolio 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password plaintext is timberwerkz 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password hash is d14cb95f68389a87cfe7dffcb23ea4f87a0438a15b4c51f81ddbdd9b6554b7c0 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 2 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Creating ProductionHousePortfolio 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password plaintext is timberwerkz 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->beforeSave>> Password hash is d14cb95f68389a87cfe7dffcb23ea4f87a0438a15b4c51f81ddbdd9b6554b7c0 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> begin 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Scenario is : insert 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Roleid is : 1 
+2012-08-12 15:49:57 - INFO --> <<UserAccount->afterSave>> Creating ArtistePortfolio 
+2012-08-12 15:57:11 - INFO --> <<Character->search>> begin 
+2012-08-12 15:57:11 - INFO --> <<Character->search>> begin 
+2012-08-12 15:57:11 - INFO --> <<Character->search>> begin 
+2012-08-12 15:57:11 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 15:57:11 - INFO --> <<Character->search>> begin 
+2012-08-12 15:57:11 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:12 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:12 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:12 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:12 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 15:58:12 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:36 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:36 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:36 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:36 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 15:58:36 - INFO --> <<Character->search>> begin 
+2012-08-12 15:58:36 - INFO --> <<Character->search>> begin 
+2012-08-12 15:59:25 - INFO --> <<Character->search>> begin 
+2012-08-12 15:59:25 - INFO --> <<Character->search>> begin 
+2012-08-12 15:59:25 - INFO --> <<Character->search>> begin 
+2012-08-12 15:59:25 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 15:59:25 - INFO --> <<Character->search>> begin 
+2012-08-12 15:59:25 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:11 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:11 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:11 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:11 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 16:00:11 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:11 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:44 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:44 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:44 - INFO --> <<Character->search>> begin 
+2012-08-12 16:00:44 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 16:00:44 - INFO --> <<Character->search>> begin 
+2012-08-12 16:02:26 - INFO --> <<Character->search>> begin 
+2012-08-12 16:02:26 - INFO --> <<Character->search>> begin 
+2012-08-12 16:02:26 - INFO --> <<Character->search>> begin 
+2012-08-12 16:02:26 - INFO --> <<CharacterTest->testSearchCharacterLanguages>> begin 
+2012-08-12 16:02:26 - INFO --> <<Character->search>> begin 
+2012-08-12 16:02:26 - INFO --> <<Character->search>> begin 

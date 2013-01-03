@@ -1,0 +1,607 @@
+2012-11-02 23:08:34 - INFO --> <<MessagesController->actionNew>> begin 
+2012-11-02 23:08:35 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:08:35 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:08:36 - INFO --> <<CommonController->actionGetUserAccount>> begin 
+2012-11-02 23:08:39 - INFO --> <<MessagesController->actionSend>> begin 
+2012-11-02 23:08:40 - INFO --> <<MessagesController->actionSend>> Casting3 sent this message to Rebecca Brown (artiste@artiste.com)
+<br/>
+
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin-bottom:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;"><img src="https://s3-ap-southeast-1.amazonaws.com/c3-dev/s" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>Rebecca Brown [ artiste@artiste.com ]</td>
+                        <tr><th style="text-align:right">Date:</th><td></td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>1234</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        &lt;b&gt;1234&lt;/b&gt;
+    </div>
+</div>
+ 
+2012-11-02 23:08:45 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:08:45 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:08:55 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:08:55 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:09:05 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:05 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:09:15 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:15 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:09:19 - INFO --> <<MessagesController->actionIndex>> begin 
+2012-11-02 23:09:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:20 - INFO --> <<MessagesController->actionGetMessageSummary>> begin 
+2012-11-02 23:09:21 - INFO --> <<MessagesController->actionCountUnread>> begin 
+2012-11-02 23:09:21 - INFO --> <<MessagesController->actionNew>> begin 
+2012-11-02 23:09:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:23 - INFO --> <<CommonController->actionGetUserAccount>> begin 
+2012-11-02 23:09:27 - INFO --> <<MessagesController->actionSend>> begin 
+2012-11-02 23:09:27 - INFO --> <<MessagesController->actionSend>> <b>12345</b> 
+2012-11-02 23:09:27 - INFO --> <<MessagesController->actionSend>> <b>12345</b> 
+2012-11-02 23:09:28 - INFO --> <<MessagesController->actionSend>> Casting3 sent this message to Rebecca Brown (artiste@artiste.com)
+<br/>
+
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin-bottom:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;"><img src="https://s3-ap-southeast-1.amazonaws.com/c3-dev/s" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>Rebecca Brown [ artiste@artiste.com ]</td>
+                        <tr><th style="text-align:right">Date:</th><td></td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>1234</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        &lt;b&gt;12345&lt;/b&gt;
+    </div>
+</div>
+ 
+2012-11-02 23:09:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:09:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:09:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:09:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:36 - INFO --> <<MessagesController->actionNew>> begin 
+2012-11-02 23:10:36 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:38 - INFO --> <<CommonController->actionGetUserAccount>> begin 
+2012-11-02 23:10:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:10:42 - INFO --> <<MessagesController->actionSend>> begin 
+2012-11-02 23:10:42 - INFO --> <<MessagesController->actionSend>> <b>12341235</b> 
+2012-11-02 23:10:42 - INFO --> <<MessagesController->actionSend>> <b>12341235</b> 
+2012-11-02 23:10:42 - INFO --> <<MessagesController->actionSend>> Casting3 sent this message to Rebecca Brown (artiste@artiste.com)
+<br/>
+
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin-bottom:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;"><img src="https://s3-ap-southeast-1.amazonaws.com/c3-dev/s" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>Rebecca Brown [ artiste@artiste.com ]</td>
+                        <tr><th style="text-align:right">Date:</th><td></td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>1234</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        <b>12341235</b>
+    </div>
+</div>
+ 
+2012-11-02 23:10:49 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:10:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:09 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:19 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:29 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:39 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:49 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:11:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:11:59 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:12:09 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:12:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:12:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:12:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:12:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:12:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:13:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:13:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:14:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:14:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:15:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:15:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:20 - INFO --> <<MessagesController->actionNew>> begin 
+2012-11-02 23:16:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:23 - INFO --> <<CommonController->actionGetUserAccount>> begin 
+2012-11-02 23:16:27 - INFO --> <<MessagesController->actionSend>> begin 
+2012-11-02 23:16:27 - INFO --> <<MessagesController->actionSend>> Casting3 sent this message to Rebecca Brown (artiste@artiste.com)
+<br/>
+
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin-bottom:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;"><img src="https://s3-ap-southeast-1.amazonaws.com/c3-dev/s" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>Rebecca Brown [ artiste@artiste.com ]</td>
+                        <tr><th style="text-align:right">Date:</th><td>Fri Nov 2 23:16:27 BNT 2012</td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>1234</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        <b>123451234</b>
+    </div>
+</div>
+ 
+2012-11-02 23:16:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:16:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:16:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:17:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:17:58 - INFO --> <<MessagesController->actionNew>> begin 
+2012-11-02 23:17:59 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:18:01 - INFO --> <<CommonController->actionGetUserAccount>> begin 
+2012-11-02 23:18:05 - INFO --> <<MessagesController->actionSend>> begin 
+2012-11-02 23:18:05 - INFO --> <<MessagesController->actionSend>> Casting3 sent this message to Rebecca Brown (artiste@artiste.com)
+<br/>
+
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin-bottom:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;"><img src="https://s3-ap-southeast-1.amazonaws.com/c3-dev/sanonymous.png" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>Rebecca Brown [ artiste@artiste.com ]</td>
+                        <tr><th style="text-align:right">Date:</th><td>Fri Nov 2 23:18 2012</td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>1234</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        <b>1234f</b>
+    </div>
+</div>
+ 
+2012-11-02 23:18:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:18:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:18:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:18:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:18:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:18:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:19:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:19:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:20:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:20:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:21:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:21:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:22:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:22:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:20 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:20 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:30 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:30 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:40 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:40 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:23:50 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:23:50 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:00 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:00 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:10 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:10 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:24:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:24:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:25:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:25:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:26:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:26:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:27:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:27:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:28:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:28:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:29:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:29:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:21 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:21 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:31 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:31 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:41 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:41 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:30:51 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:30:51 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:31:01 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:31:01 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:31:11 - INFO --> <<CommonController->actionGetNotifications>> begin 
+2012-11-02 23:31:11 - INFO --> <<MessagesController->actionGetNew>> begin 
+2012-11-02 23:32:08 - INFO --> <<SiteController->actionMain>> begin 
+2012-11-02 23:32:09 - INFO --> <<SiteController->actionMain>> begin 
+2012-11-02 23:32:19 - INFO --> <<SiteController->actionMain>> begin 

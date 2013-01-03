@@ -1,0 +1,15 @@
+/* 
+    Document   : landing
+    Created on : Nov 22, 2012, 3:03:38 PM
+    Author     : WeeKiat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.well {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.6);
+}

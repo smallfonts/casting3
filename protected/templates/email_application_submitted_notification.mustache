@@ -1,0 +1,59 @@
+Casting3 sent this notification email to {{recipientName}} ({{recipientEmail}})
+<br/>
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div class="c3-group" style="margin:10px;">
+    <div class="header">
+        <table>
+            <tr>
+                <td><div style="width:40px;padding-right:10px"><img src="{{photoBaseUrl}}/s{{senderPhotoUrl}}" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th><td>{{senderName}} [ {{senderEmail}} ]</td>
+                        <tr><th style="text-align:right">Date:</th><td>{{dateSent}}</td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td>{{messageTitle}}</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        {{{messageBody}}}
+    </div>
+</div>

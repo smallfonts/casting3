@@ -1,0 +1,83 @@
+Casting3 sent this notification email to {{recipientName}} ({{recipientEmail}})
+<br/>
+<style>
+    .c3-group {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.c3-group .header{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;
+}
+
+.message-header tr td{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+
+</style>
+
+<div style="border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);margin:10px;">
+
+
+    <div style="-webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0 ;
+    padding:3px;
+    color:black;
+    background-color: whiteSmoke;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #BBB;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-bottom-color: #A2A2A2;">
+        <h3>Congratulations! You have been shortlisted for an audition!</h3>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        Dear {{recipientName}},
+        
+        <br/>
+
+        Please apply for an audition slot for the following casting call before the deadline:
+        <p>
+            <table>
+                <tr><th style="text-align:left">Casting Call</th><td>{{castingCallTitle}}</td></tr>
+                <tr><th style="text-align:left">Audition Title</th><td>{{auditionTitle}}</td></tr>
+                <tr><th style="text-align:left">Application Period</th><td>{{applicationStart}} - {{applicationEnd}}</td></tr>
+            </table>
+        </p>
+        
+    </div>
+</div>

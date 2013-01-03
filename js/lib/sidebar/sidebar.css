@@ -1,0 +1,18 @@
+
+#sb_content {
+	position:fixed;
+	left: 8px;
+	top: 50px;
+	width: 152px;
+	padding: 10px;
+	color: black;
+        z-index:999999;
+}
+
+.sb_sidebox {
+     background-color: rgba(255, 255, 255, 0.8);
+     border: 1px solid lightcoral;
+     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

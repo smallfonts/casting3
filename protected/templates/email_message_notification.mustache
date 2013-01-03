@@ -1,0 +1,46 @@
+
+
+Casting3 sent this notification email to {{recipientName}} ({{recipientEmail}})
+<br/>
+
+<div style="margin:10px;border: 1px solid #CCC;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);">
+        <div class="header" style="-webkit-border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0 ;
+        padding:3px;
+        color:black;
+        background-color: whiteSmoke;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+        background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+        background-image: -o-linear-gradient(top, white, #E6E6E6);
+        background-image: linear-gradient(to bottom, white, #E6E6E6);
+        background-image: -moz-linear-gradient(top, white, #E6E6E6);
+        background-repeat: repeat-x;
+        border: 1px solid #BBB;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+        border-bottom-color: #A2A2A2;">
+        <table>
+            <tr>
+                <td><div style="width:40px;padding-right:10px"><img src="{{photoBaseUrl}}/s{{senderPhotoUrl}}" /></div></td>
+                <td style="width:80%px;vertical-align:top">
+                    <table class="message-header">
+                        <tr><th style="text-align:right">From:</th>
+                        <td style="font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 13px;padding-bottom: 4px;">{{senderName}} [ {{senderEmail}} ]</td>
+                        <tr><th style="text-align:right">Date:</th><td style="font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;padding-bottom: 4px;">{{dateSent}}</td></tr>
+                        <tr><th style="text-align:right">Subject:</th><td style="font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 13px;padding-bottom: 4px;">{{messageTitle}}</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="body" style="padding:10px;background:white">
+        {{{messageBody}}}
+    </div>
+</div>

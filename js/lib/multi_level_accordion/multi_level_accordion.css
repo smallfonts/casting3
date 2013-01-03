@@ -1,0 +1,7 @@
+.c3-accordion li{
+    list-style-type: none;
+}
+
+.c3-accordion li div:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,2847 @@
+.ico-youtube {
+    margin-top:5px;
+    background: url(youtube-icon.png) no-repeat;
+    display: inline-block;
+    width:48px;
+    height:48px;
+}
+
+
+.ico-megaphone {
+    background: url(megaphone-icon.png) no-repeat;
+    display: inline-block;
+    width:48px;
+    height:48px;
+}
+
+
+.ico-star {
+    background: url(star-icon.png) no-repeat;
+    display: inline-block;
+    width:48px;
+    height:48px;
+}
+
+.ico-error {
+    background: url(error-icon.png) no-repeat;
+    display: inline-block;
+    width:35px;
+    height:35px;
+}
+
+.ico-tick {
+    background: url(tick-icon.png) no-repeat;
+    display: inline-block;
+    width:48px;
+    height:45px;
+}
+
+.ico-mail {
+    background: url(mail-icon.png) no-repeat;
+    display: inline-block;
+    width:45px;
+    height:45px;
+}
+
+.ico-arrow {
+    background: url(arrow.png) no-repeat;
+    display: inline-block;
+    margin-left:2px;
+    margin-right:3px;
+    width:12px;
+    height:10px;
+}
+
+.ico-disconnect {
+    background: url(disconnect-icon.png);
+    display: inline-block;
+    width:22px;
+    height:22px;
+}
+
+.ico-connect {
+    background: url(connect-icon.png);
+    display: inline-block;
+    width:22px;
+    height:22px;
+}
+
+
+.ico-glass {
+    background: url(sprite_icons.png) -367px -107px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-leaf {
+    background: url(sprite_icons.png) -417px -135px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-dog {
+    background: url(sprite_icons.png) -310px -120px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+}
+
+.ico-user {
+    background: url(sprite_icons.png) -338px -443px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 21px;
+}
+
+.ico-girl {
+    background: url(sprite_icons.png) -543px -375px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-car {
+    background: url(sprite_icons.png) -310px -146px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+}
+
+.ico-user_add {
+    background: url(sprite_icons.png) -62px -121px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 21px;
+}
+
+.ico-user_remove {
+    background: url(sprite_icons.png) -310px -169px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+}
+
+.ico-film {
+    background: url(sprite_icons.png) -391px -56px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 25px;
+}
+
+.ico-magic {
+    background: url(sprite_icons.png) -417px -161px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-envelope {
+    background: url(sprite_icons.png) -417px -186px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+
+.ico-camera {
+    background: url(sprite_icons.png) -310px -192px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 19px;
+}
+
+.ico-heart {
+    background: url(sprite_icons.png) -417px -203px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-beach_umbrella {
+    background: url(sprite_icons.png) -308px -339px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-train {
+    background: url(sprite_icons.png) -310px -213px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+}
+
+.ico-print {
+    background: url(sprite_icons.png) -417px -226px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-bin {
+    background: url(sprite_icons.png) -225px -60px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 27px;
+}
+
+.ico-music {
+    background: url(sprite_icons.png) -417px -251px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+}
+
+.ico-note {
+    background: url(sprite_icons.png) -417px -277px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+}
+
+.ico-cogwheel {
+    background: url(sprite_icons.png) -417px -303px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-home {
+    background: url(sprite_icons.png) -253px 0px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+}
+
+.ico-snowflake {
+    background: url(sprite_icons.png) -195px 0px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+}
+
+.ico-fire {
+    background: url(sprite_icons.png) -391px -83px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+}
+
+.ico-cogwheels {
+    background: url(sprite_icons.png) -310px -241px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-parents {
+    background: url(sprite_icons.png) 0px -48px no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 21px;
+}
+
+.ico-binoculars {
+    background: url(sprite_icons.png) -417px -328px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-road {
+    background: url(sprite_icons.png) -195px -29px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-search {
+    background: url(sprite_icons.png) -417px -353px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-cars {
+    background: url(sprite_icons.png) 0px 0px no-repeat;
+    display: inline-block;
+    width: 36px;
+    height: 24px;
+}
+
+.ico-notes_2 {
+    background: url(sprite_icons.png) -282px -58px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+}
+
+.ico-pencil {
+    background: url(sprite_icons.png) -335px -339px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-bus {
+    background: url(sprite_icons.png) -75px 0px no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 24px;
+}
+
+.ico-wifi_alt {
+    background: url(sprite_icons.png) -282px -86px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-luggage {
+    background: url(sprite_icons.png) -282px -113px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+}
+
+.ico-old_man {
+    background: url(sprite_icons.png) -78px -494px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-woman {
+    background: url(sprite_icons.png) -543px -398px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-file {
+    background: url(sprite_icons.png) -367px -132px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+}
+
+.ico-credit {
+    background: url(sprite_icons.png) -282px -141px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+}
+
+.ico-airplane {
+    background: url(sprite_icons.png) -243px -366px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-notes {
+    background: url(sprite_icons.png) -367px -55px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+
+.ico-stats {
+    background: url(sprite_icons.png) -282px -166px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+}
+
+.ico-charts {
+    background: url(sprite_icons.png) -253px -27px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 23px;
+}
+
+.ico-pie_chart {
+    background: url(sprite_icons.png) -282px -192px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+}
+
+.ico-group {
+    background: url(sprite_icons.png) -38px 0px no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 21px;
+}
+
+.ico-keys {
+    background: url(sprite_icons.png) -391px -110px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-calendar {
+    background: url(sprite_icons.png) -269px -366px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+}
+
+.ico-router {
+    background: url(sprite_icons.png) -253px -52px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+}
+
+.ico-camera_small {
+    background: url(sprite_icons.png) -367px -157px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-dislikes {
+    background: url(sprite_icons.png) -282px -218px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+}
+
+.ico-link {
+    background: url(sprite_icons.png) -543px -421px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 22px;
+}
+
+.ico-eye_open {
+    background: url(sprite_icons.png) -35px -26px no-repeat;
+    display: inline-block;
+    width: 31px;
+    height: 16px;
+}
+
+.ico-eye_close {
+    background: url(sprite_icons.png) 0px -71px no-repeat;
+    display: inline-block;
+    width: 31px;
+    height: 23px;
+}
+
+.ico-alarm {
+    background: url(sprite_icons.png) -195px -54px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 25px;
+}
+
+.ico-clock {
+    background: url(sprite_icons.png) -294px -366px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-stopwatch {
+    background: url(sprite_icons.png) 0px -284px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 26px;
+}
+
+.ico-projector {
+    background: url(sprite_icons.png) -195px -81px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 24px;
+}
+
+.ico-history {
+    background: url(sprite_icons.png) 0px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-truck {
+    background: url(sprite_icons.png) -75px -26px no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+}
+
+.ico-cargo {
+    background: url(sprite_icons.png) -27px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-compass {
+    background: url(sprite_icons.png) -320px -366px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-keynote {
+    background: url(sprite_icons.png) -142px 0px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 29px;
+}
+
+.ico-attach {
+    background: url(sprite_icons.png) -25px -284px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+}
+
+.ico-power {
+    background: url(sprite_icons.png) -367px -182px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-lightbulb {
+    background: url(sprite_icons.png) -391px -137px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+}
+
+.ico-tag {
+    background: url(sprite_icons.png) -346px -366px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-tags {
+    background: url(sprite_icons.png) -109px -28px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+}
+
+.ico-cleaning {
+    background: url(sprite_icons.png) -54px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-ruller {
+    background: url(sprite_icons.png) -253px -79px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 13px;
+}
+
+.ico-gift {
+    background: url(sprite_icons.png) -80px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-umbrella {
+    background: url(sprite_icons.png) -253px -94px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+}
+
+.ico-book {
+    background: url(sprite_icons.png) -367px -207px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-bookmark {
+    background: url(sprite_icons.png) -367px -232px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 23px;
+}
+
+.ico-signal {
+    background: url(sprite_icons.png) -33px -71px no-repeat;
+    display: inline-block;
+    width: 31px;
+    height: 22px;
+}
+
+.ico-cup {
+    background: url(sprite_icons.png) -367px -257px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-stroller {
+    background: url(sprite_icons.png) -54px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-headphones {
+    background: url(sprite_icons.png) -372px -366px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-headset {
+    background: url(sprite_icons.png) -253px -123px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+
+.ico-warning_sign {
+    background: url(sprite_icons.png) -32px -96px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 23px;
+}
+
+.ico-signal {
+    background: url(sprite_icons.png) -106px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-retweet {
+    background: url(sprite_icons.png) -109px -53px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+}
+
+.ico-refresh {
+    background: url(sprite_icons.png) -81px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-roundabout {
+    background: url(sprite_icons.png) -253px -152px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-random {
+    background: url(sprite_icons.png) -195px -107px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 19px;
+}
+
+.ico-heat {
+    background: url(sprite_icons.png) 0px -121px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+}
+
+.ico-repeat {
+    background: url(sprite_icons.png) -391px -164px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-display {
+    background: url(sprite_icons.png) -195px -128px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-log_book {
+    background: url(sprite_icons.png) -367px -282px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-adress_book {
+    background: url(sprite_icons.png) -367px -307px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-magnet {
+    background: url(sprite_icons.png) -543px -445px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 22px;
+}
+
+.ico-adjust {
+    background: url(sprite_icons.png) 0px -312px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-tint {
+    background: url(sprite_icons.png) -391px -191px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+}
+
+.ico-crop {
+    background: url(sprite_icons.png) -28px -312px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-vector_path_square {
+    background: url(sprite_icons.png) -158px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vector_path_circle {
+    background: url(sprite_icons.png) -184px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vector_path_polygon {
+    background: url(sprite_icons.png) -56px -312px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+}
+
+.ico-vector_path_line {
+    background: url(sprite_icons.png) -210px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vector_path_curve {
+    background: url(sprite_icons.png) -236px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vector_path_all {
+    background: url(sprite_icons.png) -262px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-font {
+    background: url(sprite_icons.png) -253px -180px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 22px;
+}
+
+.ico-italic {
+    background: url(sprite_icons.png) -367px -332px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 23px;
+}
+
+.ico-bold {
+    background: url(sprite_icons.png) -142px -59px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+}
+
+.ico-text_underline {
+    background: url(sprite_icons.png) -142px -84px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+}
+
+.ico-text_strike {
+    background: url(sprite_icons.png) -521px -125px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+}
+
+.ico-text_height {
+    background: url(sprite_icons.png) -53px -284px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+}
+
+.ico-text_width {
+    background: url(sprite_icons.png) -103px -494px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-text_resize {
+    background: url(sprite_icons.png) -339px 0px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-left_indent {
+    background: url(sprite_icons.png) -221px -312px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-right_indent {
+    background: url(sprite_icons.png) -247px -312px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-align_left {
+    background: url(sprite_icons.png) -273px -312px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-align_center {
+    background: url(sprite_icons.png) -299px -312px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-align_right {
+    background: url(sprite_icons.png) -288px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-justify {
+    background: url(sprite_icons.png) -314px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-list {
+    background: url(sprite_icons.png) -340px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-text_smaller {
+    background: url(sprite_icons.png) -543px -469px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+}
+
+.ico-text_bigger {
+    background: url(sprite_icons.png) 0px -420px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-embed {
+    background: url(sprite_icons.png) -109px -69px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+}
+
+.ico-embed_close {
+    background: url(sprite_icons.png) 0px -96px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+}
+
+.ico-adjust {
+    background: url(sprite_icons.png) -127px -494px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-message_full {
+    background: url(sprite_icons.png) -225px -89px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+
+.ico-message_empty {
+    background: url(sprite_icons.png) -225px -118px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+
+.ico-message_in {
+    background: url(sprite_icons.png) -225px -147px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+
+.ico-message_out {
+    background: url(sprite_icons.png) -225px -176px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+
+.ico-message_plus {
+    background: url(sprite_icons.png) -63px -96px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 22px;
+}
+
+.ico-message_minus {
+    background: url(sprite_icons.png) -94px -96px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 22px;
+}
+
+.ico-message_ban {
+    background: url(sprite_icons.png) -31px -121px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 22px;
+}
+
+.ico-message_flag {
+    background: url(sprite_icons.png) -253px -204px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 22px;
+}
+
+.ico-message_lock {
+    background: url(sprite_icons.png) -195px -153px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-message_new {
+    background: url(sprite_icons.png) -92px -121px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 21px;
+}
+
+.ico-inbox {
+    background: url(sprite_icons.png) -443px 0px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+}
+
+.ico-inbox_plus {
+    background: url(sprite_icons.png) 0px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-inbox_minus {
+    background: url(sprite_icons.png) -29px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-inbox_lock {
+    background: url(sprite_icons.png) -282px 0px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+}
+
+.ico-inbox_in {
+    background: url(sprite_icons.png) -391px -218px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-inbox_out {
+    background: url(sprite_icons.png) -391px -245px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-computer_locked {
+    background: url(sprite_icons.png) -61px -147px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-computer_service {
+    background: url(sprite_icons.png) -91px -147px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-computer_proces {
+    background: url(sprite_icons.png) -121px -147px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-phone {
+    background: url(sprite_icons.png) -443px -24px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 24px;
+}
+
+.ico-database_lock {
+    background: url(sprite_icons.png) -282px -29px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+}
+
+.ico-database_plus {
+    background: url(sprite_icons.png) -58px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-database_minus {
+    background: url(sprite_icons.png) -87px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-database_ban {
+    background: url(sprite_icons.png) -339px -27px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+
+.ico-folder_open {
+    background: url(sprite_icons.png) -34px -48px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 21px;
+}
+
+.ico-folder_plus {
+    background: url(sprite_icons.png) -164px 0px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+}
+
+.ico-folder_minus {
+    background: url(sprite_icons.png) -164px -26px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 24px;
+}
+
+.ico-folder_lock {
+    background: url(sprite_icons.png) 0px -178px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 25px;
+}
+
+.ico-folder_flag {
+    background: url(sprite_icons.png) -116px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+}
+
+.ico-folder_new {
+    background: url(sprite_icons.png) -151px -147px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-check {
+    background: url(sprite_icons.png) -543px -486px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 17px;
+}
+
+.ico-edit {
+    background: url(sprite_icons.png) -443px -50px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-new_window {
+    background: url(sprite_icons.png) -339px -55px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+}
+
+.ico-more_windows {
+    background: url(sprite_icons.png) -152px -494px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+}
+
+.ico-show_big_thumbnails {
+    background: url(sprite_icons.png) -363px -443px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-show_thumbnails {
+    background: url(sprite_icons.png) -387px -443px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-show_thumbnails_with_lines {
+    background: url(sprite_icons.png) -443px -72px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+}
+
+.ico-show_lines {
+    background: url(sprite_icons.png) -443px -88px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+}
+
+.ico-playlist {
+    background: url(sprite_icons.png) -164px -52px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 23px;
+}
+
+.ico-picture {
+    background: url(sprite_icons.png) -443px -104px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 19px;
+}
+
+.ico-imac {
+    background: url(sprite_icons.png) -339px -78px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+}
+
+.ico-macbook {
+    background: url(sprite_icons.png) -164px -127px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 14px;
+}
+
+.ico-ipad {
+    background: url(sprite_icons.png) -339px -101px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+}
+
+.ico-iphone {
+    background: url(sprite_icons.png) -398px -366px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 23px;
+}
+
+.ico-iphone_transfer {
+    background: url(sprite_icons.png) -164px -77px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 23px;
+}
+
+.ico-iphone_exchange {
+    background: url(sprite_icons.png) -164px -102px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 23px;
+}
+
+.ico-ipod {
+    background: url(sprite_icons.png) -521px -148px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 21px;
+}
+
+.ico-ipod_shuffle {
+    background: url(sprite_icons.png) -521px -467px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+}
+
+.ico-ear_plugs {
+    background: url(sprite_icons.png) -521px 0px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+}
+
+.ico-albums {
+    background: url(sprite_icons.png) -122px -121px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 17px;
+}
+
+.ico-step_backward {
+    background: url(sprite_icons.png) -521px -393px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+}
+
+.ico-fast_backward {
+    background: url(sprite_icons.png) -143px -205px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+}
+
+.ico-rewind {
+    background: url(sprite_icons.png) -495px -475px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 17px;
+}
+
+.ico-play {
+    background: url(sprite_icons.png) -521px -412px no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+}
+
+.ico-pause {
+    background: url(sprite_icons.png) -521px -481px no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+}
+
+.ico-stop {
+    background: url(sprite_icons.png) -521px -498px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+}
+
+.ico-forward {
+    background: url(sprite_icons.png) -224px -205px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 17px;
+}
+
+.ico-fast_forward {
+    background: url(sprite_icons.png) -170px -205px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+}
+
+.ico-step_forward {
+    background: url(sprite_icons.png) -521px -431px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+}
+
+.ico-eject {
+    background: url(sprite_icons.png) -521px -339px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+}
+
+.ico-facetime_video {
+    background: url(sprite_icons.png) -443px -125px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+
+.ico-download_alt {
+    background: url(sprite_icons.png) -443px -142px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-mute {
+    background: url(sprite_icons.png) -177px -178px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+}
+
+.ico-volume_down {
+    background: url(sprite_icons.png) -521px -450px no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+}
+
+.ico-volume_up {
+    background: url(sprite_icons.png) -391px -272px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-screenshot {
+    background: url(sprite_icons.png) 0px -256px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+}
+
+.ico-move {
+    background: url(sprite_icons.png) -443px -167px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-more {
+    background: url(sprite_icons.png) -543px -505px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 6px;
+}
+
+.ico-brightness_reduce {
+    background: url(sprite_icons.png) -521px -217px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+}
+
+.ico-brightness_increase {
+    background: url(sprite_icons.png) -443px -192px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-circle_plus {
+    background: url(sprite_icons.png) -339px -129px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_minus {
+    background: url(sprite_icons.png) -339px -156px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_remove {
+    background: url(sprite_icons.png) -339px -183px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_ok {
+    background: url(sprite_icons.png) -339px -210px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_question_mark {
+    background: url(sprite_icons.png) -339px -237px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_info {
+    background: url(sprite_icons.png) -339px -264px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_exclamation_mark {
+    background: url(sprite_icons.png) -339px -291px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-remove {
+    background: url(sprite_icons.png) 0px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-ok {
+    background: url(sprite_icons.png) -28px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-ban {
+    background: url(sprite_icons.png) -56px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-download {
+    background: url(sprite_icons.png) -84px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-upload {
+    background: url(sprite_icons.png) -112px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-shopping_cart {
+    background: url(sprite_icons.png) -81px -284px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+}
+
+.ico-lock {
+    background: url(sprite_icons.png) -391px -299px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 25px;
+}
+
+.ico-unlock {
+    background: url(sprite_icons.png) -391px -326px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 25px;
+}
+
+.ico-electricity {
+    background: url(sprite_icons.png) -521px -25px no-repeat;
+    display: inline-block;
+    width: 11px;
+    height: 23px;
+}
+
+.ico-ok_2 {
+    background: url(sprite_icons.png) -144px -256px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+}
+
+.ico-remove_2 {
+    background: url(sprite_icons.png) -521px -357px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+}
+
+.ico-cart_out {
+    background: url(sprite_icons.png) -84px -312px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+}
+
+.ico-cart_in {
+    background: url(sprite_icons.png) -112px -312px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+}
+
+.ico-left_arrow {
+    background: url(sprite_icons.png) -521px -238px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+}
+
+.ico-right_arrow {
+    background: url(sprite_icons.png) -521px -257px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+}
+
+.ico-down_arrow {
+    background: url(sprite_icons.png) -521px -297px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+}
+
+.ico-up_arrow {
+    background: url(sprite_icons.png) -521px -318px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+}
+
+.ico-resize_small {
+    background: url(sprite_icons.png) -443px -217px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-resize_full {
+    background: url(sprite_icons.png) -443px -242px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-circle_arrow_left {
+    background: url(sprite_icons.png) -140px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_arrow_right {
+    background: url(sprite_icons.png) -168px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_arrow_top {
+    background: url(sprite_icons.png) -196px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-circle_arrow_down {
+    background: url(sprite_icons.png) -224px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-play_button {
+    background: url(sprite_icons.png) -252px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-unshare {
+    background: url(sprite_icons.png) -443px -267px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+}
+
+.ico-share {
+    background: url(sprite_icons.png) -443px -286px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+}
+
+.ico-thin_right_arrow {
+    background: url(sprite_icons.png) -521px -171px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 21px;
+}
+
+.ico-thin_arrow_left {
+    background: url(sprite_icons.png) -521px -194px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 21px;
+}
+
+.ico-bluetooth {
+    background: url(sprite_icons.png) -521px -50px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 23px;
+}
+
+.ico-euro {
+    background: url(sprite_icons.png) -227px -494px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.ico-usd {
+    background: url(sprite_icons.png) -367px -28px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 25px;
+}
+
+.ico-bp {
+    background: url(sprite_icons.png) -521px -75px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 23px;
+}
+
+.ico-retweet_2 {
+    background: url(sprite_icons.png) 0px -26px no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 20px;
+}
+
+.ico-moon {
+    background: url(sprite_icons.png) -443px -305px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+}
+
+.ico-sun {
+    background: url(sprite_icons.png) -443px -331px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-cloud {
+    background: url(sprite_icons.png) -120px -178px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 16px;
+}
+
+.ico-direction {
+    background: url(sprite_icons.png) -280px -339px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+}
+
+.ico-brush {
+    background: url(sprite_icons.png) -137px -284px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+}
+
+.ico-pen {
+    background: url(sprite_icons.png) -443px -356px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-zoom_in {
+    background: url(sprite_icons.png) -108px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-zoom_out {
+    background: url(sprite_icons.png) -135px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-pin {
+    background: url(sprite_icons.png) -443px -381px no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 24px;
+}
+
+.ico-riflescope {
+    background: url(sprite_icons.png) -162px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-rotation_lock {
+    background: url(sprite_icons.png) -145px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 23px;
+}
+
+.ico-flash {
+    background: url(sprite_icons.png) -443px -407px no-repeat;
+    display: inline-block;
+    width: 14px;
+    height: 24px;
+}
+
+.ico-google_maps {
+    background: url(sprite_icons.png) -521px -100px no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 23px;
+}
+
+.ico-anchor {
+    background: url(sprite_icons.png) 0px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-conversation {
+    background: url(sprite_icons.png) -197px -205px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+}
+
+.ico-chat {
+    background: url(sprite_icons.png) -198px -256px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 18px;
+}
+
+.ico-male {
+    background: url(sprite_icons.png) -411px -443px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-female {
+    background: url(sprite_icons.png) -142px -31px no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+}
+
+.ico-asterisk {
+    background: url(sprite_icons.png) -521px -276px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+}
+
+.ico-divide {
+    background: url(sprite_icons.png) -521px -376px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+}
+
+.ico-snorkel_diving {
+    background: url(sprite_icons.png) -29px -256px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+}
+
+.ico-scuba_diving {
+    background: url(sprite_icons.png) -174px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 23px;
+}
+
+.ico-oxygen_bottle {
+    background: url(sprite_icons.png) -367px 0px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 26px;
+}
+
+.ico-fins {
+    background: url(sprite_icons.png) -109px 0px no-repeat;
+    display: inline-block;
+    width: 31px;
+    height: 26px;
+}
+
+.ico-fishes {
+    background: url(sprite_icons.png) 0px -147px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+}
+
+.ico-boat {
+    background: url(sprite_icons.png) -26px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-delete_point {
+    background: url(sprite_icons.png) -339px -318px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+}
+
+.ico-sheriffs_-star {
+    background: url(sprite_icons.png) -417px 0px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+}
+
+.ico-qrcode {
+    background: url(sprite_icons.png) -52px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-barcode {
+    background: url(sprite_icons.png) -78px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-pool {
+    background: url(sprite_icons.png) -104px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-buoy {
+    background: url(sprite_icons.png) -130px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-spade {
+    background: url(sprite_icons.png) -156px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-bank {
+    background: url(sprite_icons.png) -182px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vcard {
+    background: url(sprite_icons.png) -543px 0px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-electrical_plug {
+    background: url(sprite_icons.png) -367px -81px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+}
+
+.ico-flag {
+    background: url(sprite_icons.png) -417px -27px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 25px;
+}
+
+.ico-credit_card {
+    background: url(sprite_icons.png) -59px -205px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+}
+
+.ico-keyboard_wireless {
+    background: url(sprite_icons.png) -30px -205px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+}
+
+.ico-keyboard_wired {
+    background: url(sprite_icons.png) -58px -256px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+}
+
+.ico-shield {
+    background: url(sprite_icons.png) -543px -25px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-ring {
+    background: url(sprite_icons.png) -543px -50px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+}
+
+.ico-cake {
+    background: url(sprite_icons.png) -543px -75px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-drink {
+    background: url(sprite_icons.png) 0px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-beer {
+    background: url(sprite_icons.png) -25px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-fast_food {
+    background: url(sprite_icons.png) -30px -178px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+}
+
+.ico-cutlery {
+    background: url(sprite_icons.png) -543px -100px no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 23px;
+}
+
+.ico-pizza {
+    background: url(sprite_icons.png) -225px 0px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 28px;
+}
+
+.ico-birthday_cake {
+    background: url(sprite_icons.png) -225px -30px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 28px;
+}
+
+.ico-tablet {
+    background: url(sprite_icons.png) -189px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-settings {
+    background: url(sprite_icons.png) -208px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-bullets {
+    background: url(sprite_icons.png) -203px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 22px;
+}
+
+.ico-cardio {
+    background: url(sprite_icons.png) 0px -393px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-t-shirt {
+    background: url(sprite_icons.png) -60px -178px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+}
+
+.ico-pants {
+    background: url(sprite_icons.png) -543px -125px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+}
+
+.ico-sweater {
+    background: url(sprite_icons.png) -30px -147px no-repeat;
+    display: inline-block;
+    width: 29px;
+    height: 23px;
+}
+
+.ico-fabric {
+    background: url(sprite_icons.png) -232px -228px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 21px;
+}
+
+.ico-leather {
+    background: url(sprite_icons.png) -50px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-scissors {
+    background: url(sprite_icons.png) -391px 0px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+}
+
+.ico-podium {
+    background: url(sprite_icons.png) -90px -178px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+}
+
+.ico-skull {
+    background: url(sprite_icons.png) -543px -150px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-celebration {
+    background: url(sprite_icons.png) -469px 0px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-tea_kettle {
+    background: url(sprite_icons.png) -109px -284px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+}
+
+.ico-french_press {
+    background: url(sprite_icons.png) -469px -26px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+}
+
+.ico-coffe_cup {
+    background: url(sprite_icons.png) -171px -256px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+}
+
+.ico-pot {
+    background: url(sprite_icons.png) -87px -256px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 21px;
+}
+
+.ico-grater {
+    background: url(sprite_icons.png) -543px -175px no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 23px;
+}
+
+.ico-kettle {
+    background: url(sprite_icons.png) -75px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-hospital {
+    background: url(sprite_icons.png) -469px -52px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-hospital_h {
+    background: url(sprite_icons.png) -469px -77px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-microphone {
+    background: url(sprite_icons.png) -543px -200px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 23px;
+}
+
+.ico-webcam {
+    background: url(sprite_icons.png) -543px -225px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 23px;
+}
+
+.ico-temple_christianity_church {
+    background: url(sprite_icons.png) -469px -102px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ico-temple_islam {
+    background: url(sprite_icons.png) -167px -312px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+}
+
+.ico-temple_hindu {
+    background: url(sprite_icons.png) -469px -128px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-temple_buddhist {
+    background: url(sprite_icons.png) 0px -205px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 21px;
+}
+
+.ico-electrical_socket_eu {
+    background: url(sprite_icons.png) -177px -494px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+}
+
+.ico-electrical_socket_us {
+    background: url(sprite_icons.png) -202px -494px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 22px;
+}
+
+.ico-bomb {
+    background: url(sprite_icons.png) -310px 0px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+}
+
+.ico-comments {
+    background: url(sprite_icons.png) -469px -153px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+}
+
+.ico-flower {
+    background: url(sprite_icons.png) -469px -177px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 24px;
+}
+
+.ico-baseball {
+    background: url(sprite_icons.png) -27px -393px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.ico-rugby {
+    background: url(sprite_icons.png) -100px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-ax {
+    background: url(sprite_icons.png) -310px -27px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+}
+
+.ico-table_tennis {
+    background: url(sprite_icons.png) -469px -203px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-bowling {
+    background: url(sprite_icons.png) -469px -228px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-tree_conifer {
+    background: url(sprite_icons.png) -543px -250px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+}
+
+.ico-tree_deciduous {
+    background: url(sprite_icons.png) -469px -253px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+
+.ico-more-items {
+    background: url(sprite_icons.png) -543px -275px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+}
+
+.ico-sort {
+    background: url(sprite_icons.png) -216px -366px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+}
+
+.ico-filter {
+    background: url(sprite_icons.png) -543px -300px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+}
+
+.ico-gamepad {
+    background: url(sprite_icons.png) -310px -53px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+}
+
+.ico-playing_dices {
+    background: url(sprite_icons.png) -310px -73px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 22px;
+}
+
+.ico-calculator {
+    background: url(sprite_icons.png) -543px -325px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+}
+
+.ico-tie {
+    background: url(sprite_icons.png) -417px -54px no-repeat;
+    display: inline-block;
+    width: 11px;
+    height: 25px;
+}
+
+.ico-wallet {
+    background: url(sprite_icons.png) -164px -284px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+}
+
+.ico-share {
+    background: url(sprite_icons.png) -435px -443px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+
+.ico-sampler {
+    background: url(sprite_icons.png) -310px -97px no-repeat;
+    display: inline-block;
+    width: 27px;
+    height: 21px;
+}
+
+.ico-piano {
+    background: url(sprite_icons.png) -125px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-web_browser {
+    background: url(sprite_icons.png) -469px -279px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-blog {
+    background: url(sprite_icons.png) -251px -494px no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 22px;
+}
+
+.ico-dashboard {
+    background: url(sprite_icons.png) -469px -302px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-certificate {
+    background: url(sprite_icons.png) -469px -327px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 24px;
+}
+
+.ico-bell {
+    background: url(sprite_icons.png) -469px -353px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-candle {
+    background: url(sprite_icons.png) -469px -378px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+}
+
+.ico-pin_classic {
+    background: url(sprite_icons.png) -469px -404px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-iphone_shake {
+    background: url(sprite_icons.png) -469px -429px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-pin_flag {
+    background: url(sprite_icons.png) -66px -71px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 21px;
+}
+
+.ico-turtle {
+    background: url(sprite_icons.png) -75px -54px no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 15px;
+}
+
+.ico-rabbit {
+    background: url(sprite_icons.png) -116px -256px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+}
+
+.ico-globe {
+    background: url(sprite_icons.png) -234px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-briefcase {
+    background: url(sprite_icons.png) -366px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-hdd {
+    background: url(sprite_icons.png) -392px -393px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-thumbs_up {
+    background: url(sprite_icons.png) -26px -420px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-thumbs_down {
+    background: url(sprite_icons.png) -52px -420px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-hand_right {
+    background: url(sprite_icons.png) -87px -205px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+}
+
+.ico-hand_left {
+    background: url(sprite_icons.png) -115px -205px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+}
+
+.ico-hand_up {
+    background: url(sprite_icons.png) -417px -81px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 25px;
+}
+
+.ico-hand_down {
+    background: url(sprite_icons.png) -391px -28px no-repeat;
+    display: inline-block;
+    width: 19px;
+    height: 26px;
+}
+
+.ico-fullscreen {
+    background: url(sprite_icons.png) -260px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-shopping_bag {
+    background: url(sprite_icons.png) -417px -108px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+}
+
+.ico-book_open {
+    background: url(sprite_icons.png) -194px -312px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 22px;
+}
+
+.ico-nameplate {
+    background: url(sprite_icons.png) -78px -420px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+}
+
+.ico-nameplate_alt {
+    background: url(sprite_icons.png) -286px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-vases {
+    background: url(sprite_icons.png) 0px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-announcement {
+    background: url(sprite_icons.png) -191px -284px no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+}
+
+.ico-dumbbell {
+    background: url(sprite_icons.png) -149px -178px no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 15px;
+}
+
+.ico-suitcase {
+    background: url(sprite_icons.png) -312px -443px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+}
+
+.ico-file_import {
+    background: url(sprite_icons.png) -543px -350px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+}
+
+.ico-file_export {
+    background: url(sprite_icons.png) -150px -519px no-repeat;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico-pinterest {
+    background: url(sprite_icons.png) -26px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-dropbox {
+    background: url(sprite_icons.png) -52px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-google+_alt {
+    background: url(sprite_icons.png) -78px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-jolicloud {
+    background: url(sprite_icons.png) -104px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-yahoo {
+    background: url(sprite_icons.png) -130px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-blogger {
+    background: url(sprite_icons.png) -156px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-picasa {
+    background: url(sprite_icons.png) -182px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-amazon {
+    background: url(sprite_icons.png) -208px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-tumblr {
+    background: url(sprite_icons.png) -234px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-wordpress {
+    background: url(sprite_icons.png) -260px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-instapaper {
+    background: url(sprite_icons.png) -286px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-evernote {
+    background: url(sprite_icons.png) -312px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-xing {
+    background: url(sprite_icons.png) -338px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-zootool {
+    background: url(sprite_icons.png) -364px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-dribbble {
+    background: url(sprite_icons.png) -390px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-deviantart {
+    background: url(sprite_icons.png) -416px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-read_it_later {
+    background: url(sprite_icons.png) -442px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-linked_in {
+    background: url(sprite_icons.png) -468px -469px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-forrst {
+    background: url(sprite_icons.png) -495px 0px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-pinboard {
+    background: url(sprite_icons.png) -495px -25px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-behance {
+    background: url(sprite_icons.png) -495px -50px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-github {
+    background: url(sprite_icons.png) -495px -75px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-skitch {
+    background: url(sprite_icons.png) -495px -125px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-4square {
+    background: url(sprite_icons.png) -495px -150px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-quora {
+    background: url(sprite_icons.png) -495px -175px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-google_plus {
+    background: url(sprite_icons.png) -495px -200px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-spootify {
+    background: url(sprite_icons.png) -495px -225px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-stumbleupon {
+    background: url(sprite_icons.png) -495px -250px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-readability {
+    background: url(sprite_icons.png) -495px -275px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-facebook {
+    background: url(sprite_icons.png) -495px -300px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-twitter_t {
+    background: url(sprite_icons.png) -495px -325px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-twitter {
+    background: url(sprite_icons.png) -495px -350px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-buzz {
+    background: url(sprite_icons.png) -495px -375px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-vimeo {
+    background: url(sprite_icons.png) -495px -400px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-flickr {
+    background: url(sprite_icons.png) -495px -425px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-last_fm {
+    background: url(sprite_icons.png) -495px -450px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-rss {
+    background: url(sprite_icons.png) 0px -494px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-skype {
+    background: url(sprite_icons.png) -26px -494px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
+
+.ico-e-mail {
+    background: url(sprite_icons.png) -52px -494px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+}
