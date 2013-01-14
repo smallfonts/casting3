@@ -115,7 +115,7 @@ return array(
             'emulatePrepare' => true,
             'username' => 'root',
             //  'password' => '12345',
-            'password' => '',
+            'password' => '12345',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(
