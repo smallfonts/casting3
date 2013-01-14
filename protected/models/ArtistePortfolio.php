@@ -272,7 +272,7 @@ class ArtistePortfolio extends CActiveRecord {
             array('mobile_phone','required','on'=>'edit_portfolio'),
             array('userid', 'exist', 'className' => 'UserAccount'),
             array('url', 'unique'),
-            array('dob', 'safe'),
+            array('dob', 'checkDOB'),
             array('years_of_experience', 'numerical'),
             array('url', 'match', 'pattern' => '/^[a-zA-Z0-9]*$/', 'message' => 'Url must contain only <strong>Alpha Numeric</strong> characters'),
             array('userid, photoid, characterid', 'length', 'max' => 100),
@@ -285,6 +285,12 @@ class ArtistePortfolio extends CActiveRecord {
             // Please remove those attributes that should not be searched.
             array('limit,offset,searchGender,searchEthnicity,artiste_portfolioid, userid, name, ethnicityid, gender, nationality, height, weight, email, mobile_phone, dob, status, photoid, sortAttr', 'safe', 'on' => 'search'),
         );
+    }
+    
+    public function checkDOB() {
+        if($this->dob == ''){
+            $this->dob = null;
+        }
     }
 
     /**

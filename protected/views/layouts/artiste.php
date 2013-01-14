@@ -72,6 +72,7 @@ $tinyPortfolio = array(
     </div>
 </div>
 
+<!--
 <div id="sb_content" class="sb_sidebox">
     <span class="close pull-right" onclick="$('#sb_content').fadeOut()">×</span>
     <h5>Welcome to Casting3!</h5>
@@ -79,6 +80,7 @@ $tinyPortfolio = array(
     <p><small>P.S This is really important for us and we really appreciate your awesomeness! =)<small></p>
     <button class="btn btn-small btn-primary" onclick="window.open('http://edu.surveygizmo.com/s3/1097950/Artiste-Feedback-Field-Test','','width=950,height=800')">Link to Evaluation Form</button>
 </div>
+-->
 
 <div class="container c3-fixed-padding" id="page">
     <div id="c3_pageAlert"></div>

@@ -101,7 +101,7 @@
         </script>
     </head>
 
-    <body ng-controller="main_ctrl" id="c3main" style="height:100%;overflow-y:hidden">
+    <body ng-controller="main_ctrl" id="c3main" style="height:100%;overflow-y:hidden" ng-cloak>
         
         <div id="main_scroll" style="height:100%;overflow-y:scroll">
             

@@ -17,6 +17,11 @@
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/controllers/main_ctrl.js"></script>
 
         <style>
+            
+            body{
+                background: white;
+            }
+            
             .subtitle {
                 font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
                 font-size:10px;

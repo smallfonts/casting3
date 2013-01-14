@@ -73,12 +73,13 @@ function set_video_ctrl($scope, $http) {
                 
     }
     
+    //waits for user to authorize casting3 for youtube access
+    //
     $scope.waitAuth = function(){
         $.get(baseUrl+'/common/checkAuthenticated?randToken='+$scope.randToken,function(data){
             if(data == 'true'){
-                
-                    svc.showUploadVideo();
-                
+                $scope.hasToken = true;
+                svc.showUploadVideo();
             } else {
                 setTimeout(function(){
                     svc.waitAuth();

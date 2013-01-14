@@ -214,3 +214,181 @@ Stack trace:
 REQUEST_URI=/timberwerkz/%7B%7BbaseUrl%20+%20'/images/Oak3Films.png'%7D%7D
 HTTP_REFERER=http://localhost/timberwerkz/
 ---
+2013/01/14 21:33:28 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:33:35 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:33:37 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:33:38 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:33:45 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:39:36 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:40:33 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:40:37 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:44:28 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:47:39 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:47:43 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:49:43 [warning] [application] Failed to set unsafe attribute "role" of "UserAccount".
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (180)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (121)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (70)
+2013/01/14 21:49:51 [warning] [application] Failed to set unsafe attribute "role" of "UserAccount".
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (180)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (121)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (70)
+2013/01/14 21:49:58 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:49:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:53:11 [warning] [application] Failed to set unsafe attribute "role" of "UserAccount".
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (180)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (121)
+in C:\wamp\www\casting3\protected\controllers\SiteController.php (70)
+2013/01/14 21:54:36 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---
+2013/01/14 21:54:40 [warning] [application] Failed to set unsafe attribute "new_ethnicity" of "ArtistePortfolio".
+in C:\wamp\www\casting3\protected\controllers\ArtisteController.php (285)
+in C:\wamp\www\casting3\protected\components\Controller.php (30)
+in C:\wamp\www\casting3\index.php (16)
+2013/01/14 21:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artiste".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('artiste')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('artiste')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('artiste/artiste')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\casting3\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/casting3/artiste/artiste
+HTTP_REFERER=http://localhost/casting3/artiste/editPortfolio
+---

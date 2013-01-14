@@ -67,6 +67,7 @@ function edit_portfolio_ctrl($scope, $http) {
             $scope.dob.selectedDay = $scope.dob.date.getDate();
             $scope.dob.selectedMonth = $scope.dob.date.getMonth();
             $scope.dob.selectedYear = $scope.dob.date.getFullYear();
+            $('#portfolioDOB').attr('value',$scope.portfolio.dob);
         } else {
             $scope.dob.selectedDay='Day';
             $scope.dob.selectedMonth=-1;
@@ -130,7 +131,7 @@ function edit_portfolio_ctrl($scope, $http) {
         //populate existing languages
         //
         existingLanguages = ""
-        for(i in $scope.portfolio.languages){
+        for(var i in $scope.portfolio.languages){
             curLanguage = $scope.portfolio.languages[i];
             existingLanguages += "," + curLanguage.languageid + ":" + curLanguage.language_proficiencyid
         }

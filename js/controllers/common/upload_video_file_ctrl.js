@@ -45,6 +45,7 @@ function upload_video_file_ctrl($scope, $http) {
     }
     
     $scope.submitLink = function(){
+        if($scope.canSetUrl == "disabled") return;
         window.location = baseUrl + '/common/confirmUpload?randToken='+randToken+'&status=200&id='+$scope.video.url;
     }
     
