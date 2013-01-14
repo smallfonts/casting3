@@ -385,11 +385,7 @@ class CommonController extends Controller {
             }
         }
 
-        $log->logInfo('here2');
-
-
         $enc = CryptoUtil::encryptData($arr);
-        $log->logInfo('here3');
         $this->renderPartial('setPhoto', array('model' => $model, 'enc' => $enc));
     }
 

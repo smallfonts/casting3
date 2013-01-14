@@ -142,14 +142,14 @@ return array(
     // using Yii::app()->params['paramName']
     'params' => array(
         // this is used in contact page
-        'adminEmail' => 'smu.timberwerkz.dev@gmail.com',
+        'adminEmail' => 'ana@oak3films.com',
         //adminPassword (used by cron jobs)
         'password' => 'pa55w0rd!',
         //Amazon Web Services (AWS) Keys
-        'awsAccessKey' => 'AKIAJNTS364A226FFC5Q',
-        'awsSecretKey' => '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',
+        'awsAccessKey' => 'AKIAIBKSUMN2YOU5EZKQ',
+        'awsSecretKey' => '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',
         //s3 buckets
-        'photoBucket' => 'c3-dev',
-        'photoBaseUrl' => 'https://s3-ap-southeast-1.amazonaws.com/c3-dev',
+        'photoBucket' => 'oak3photos-dev',
+        'photoBaseUrl' => 'https://s3-ap-southeast-1.amazonaws.com/oak3photos-dev',
     ),
 );

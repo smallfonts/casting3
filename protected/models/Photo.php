@@ -73,7 +73,7 @@ class Photo extends CActiveRecord {
 
     //checks whether file has been submitted via uploadify with $_FILES (For IE browsers) or $_POST
     //
-    function checkFile() {
+    public function checkFile() {
         $log = new Logger(get_class($this));
         $log->setMethod(__FUNCTION__);
         $log->logInfo('values x1:' . $this->x1 . ' x2:' . $this->x2 . ' y1:' . $this->y1 . ' y2: ' . $this->y2 . 'width: ' . $this->width . 'height : ' . $this->height . ' ext : ' . $this->ext . ' url: ' . $this->url);
@@ -220,6 +220,9 @@ class Photo extends CActiveRecord {
             //
                 
             $this->image = CUploadedFile::getInstance($this, 'image');
+            
+            $log->logInfo($this->image);
+            
             $fileName = $this->generateFileName('png');
             $path = $basePath . "/" . $fileName;
 
@@ -382,25 +385,24 @@ class Photo extends CActiveRecord {
 
         $cropImage = null;
 
-        $fileDimensions = getimagesize($path);
-        $fileType = strtolower($fileDimensions['mime']);
-
-        $log->logInfo('File Type Is:' . $fileType);
-        switch ($fileType) {
-            case 'image/png':
+        $ext = pathinfo($path, PATHINFO_EXTENSION);
+        
+        $log->logInfo('File Type Is:' . $ext);
+        switch ($ext) {
+            case 'png':
                 $log->logInfo('image is PNG');
                 $cropImage = imagecreatefrompng($path);
                 break;
-            case 'image/jpg': case 'image/jpeg':
+            case 'jpg': case 'jpeg':
                 $log->logInfo('image is JPEG');
                 $cropImage = imagecreatefromjpeg($path);
                 break;
-            case 'image/gif':
+            case 'gif':
                 $log->logInfo('image is GIF');
                 $cropImage = imagecreatefromgif($path);
 
                 break;
-            case 'image/bmp':
+            case 'bmp':
                 $log->logInfo('image is BMP');
                 $cropImage = imagecreatefromwbmp($path);
 
@@ -409,8 +411,8 @@ class Photo extends CActiveRecord {
 
         $dst_r = ImageCreateTrueColor($this->width, $this->height);
 
-        switch ($fileType) {
-            case "image/png":
+        switch ($ext) {
+            case "png":
                 // integer representation of the color black (rgb: 0,0,0)
                 $background = imagecolorallocate($dst_r, 0, 0, 0);
                 // removing the black from the placeholder
@@ -426,7 +428,7 @@ class Photo extends CActiveRecord {
                 imagesavealpha($dst_r, true);
 
                 break;
-            case "image/gif":
+            case "gif":
                 // integer representation of the color black (rgb: 0,0,0)
                 $background = imagecolorallocate($dst_r, 0, 0, 0);
                 // removing the black from the placeholder

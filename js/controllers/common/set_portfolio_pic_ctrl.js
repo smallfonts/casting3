@@ -124,7 +124,7 @@ function set_portfolio_pic_ctrl($scope, $http) {
             $('#fileselect').trigger('click');
         });
         
-        //console.info('<init> - end');
+    //console.info('<init> - end');
     }
     
     
@@ -189,8 +189,8 @@ function set_portfolio_pic_ctrl($scope, $http) {
         //reset tabs
         $('#c3_cpp_modal').modal('show');
         $('#c3_cpp_tab a[href="#cpp_1"]').tab('show');
-        ///$('#c3_cpp_pill a[href="#cpp_pill_1"]').tab('show');
-        //console.info('<show> - end');
+    ///$('#c3_cpp_pill a[href="#cpp_pill_1"]').tab('show');
+    //console.info('<show> - end');
     }
     
     
@@ -219,7 +219,7 @@ function set_portfolio_pic_ctrl($scope, $http) {
                 }
             });
         }
-        //console.info('<initUploadify> - end');
+    //console.info('<initUploadify> - end');
     }
     
     //submits upload photo form
@@ -288,13 +288,13 @@ function set_portfolio_pic_ctrl($scope, $http) {
                     }
                     
                 } catch(e){
-                    //console.info(e.message);
+                //console.info(e.message);
                 }
             };
             //console.info('<submit> - sending form');
             xhr.send(formData);
         } 
-        //console.info('<submit> - end');
+    //console.info('<submit> - end');
     }
     
     $scope.submitSuccess = function(data){
@@ -344,7 +344,7 @@ function set_portfolio_pic_ctrl($scope, $http) {
             });
         
         }
-        //console.info('<fileSelected> - end');
+    //console.info('<fileSelected> - end');
     }
         
     $scope.loadImage = function(file){
@@ -391,7 +391,7 @@ function set_portfolio_pic_ctrl($scope, $http) {
                 }
             }
         }
-        //console.info('<loadImage> - end');
+    //console.info('<loadImage> - end');
     }
    
     //This function activates Jcrop API for image cropping
@@ -510,36 +510,22 @@ function set_portfolio_pic_ctrl($scope, $http) {
     }
     
     $scope.dataURItoBlob = function(dataURI){
-        //console.info('<dataURItoBlob> - start');
-        // convert base64 to raw binary data held in a string
-        // doesn't handle URLEncoded DataURIs - see SO answer #6850276 for code that does this
-        var byteString = atob(dataURI.split(',')[1]);
-
+        
+        //get data portion of dataURI
+        var binary = atob(dataURI.split(',')[1]);
+        var arr = [];
+        for(var i = 0; i < binary.length; i++) {
+            arr.push(binary.charCodeAt(i));
+        }
+        
+        
         // separate out the mime component
-        var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0]
-
-        // write the bytes of the string to an ArrayBuffer
-        var ab = new ArrayBuffer(byteString.length);
-        var ia = new Uint8Array(ab);
-        for (var i = 0; i < byteString.length; i++) {
-            ia[i] = byteString.charCodeAt(i);
-        }
-
-        // write the ArrayBuffer to a blob, and you're done
-        var bb;
-        try {
-            bb = new BlobBuilder();
-        } catch(e) {
-            try {
-                bb = new WebKitBlobBuilder();
-            } catch(e) {
-                bb = new MozBlobBuilder();
-            }
-        }
-    
-        bb.append(ab);
-        //console.info('<dataURItoBlob> - end');
-        return bb.getBlob(mimeString);
+        var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0];
+        
+        return new Blob([new Uint8Array(arr)], {
+            type: mimeString
+        });
+        
     }
     
     $scope.imgToCanvas = function(img){
