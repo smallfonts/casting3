@@ -219,7 +219,7 @@ function apply_ctrl($scope, $http) {
     
     $scope.getLanguageProficiency = function(language_proficiencyid){
         for (var i in $scope.languageProficiencies){
-            if ($scope.languageProficiencies[i].language_proficiencyid == language_proficiencyid) return $scope.languageProficiencies[i];
+            if ($scope.languageProficiencies[i].language_proficiencyid == language_proficiencyid) return $scope.languageProficiencies[i].name;
         }
         
         return null;

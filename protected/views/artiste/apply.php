@@ -129,7 +129,7 @@
                                     <tr><th>Gender</th><td>{{artistePortfolio.gender}}</td></tr>
                                     <tr><th>Nationality</th><td>{{artistePortfolio.nationality}}</td></tr>                  
                                     <tr><th>Languages</th><td>
-                                            <span ng-repeat="language in portfolio.languages"> <span ng-show="showComma($index)">,</span> {{language.name}} ({{getLanguageProficiency(language.language_proficiencyid)}})</span>
+                                            <span ng-repeat="language in artistePortfolio.languages"> <span ng-show="showComma($index)">,</span> {{language.name}} ({{getLanguageProficiency(language.language_proficiencyid)}})</span>
                                         </td></tr>
                                 </table>
                             </div>

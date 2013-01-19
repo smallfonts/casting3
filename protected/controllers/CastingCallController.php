@@ -244,9 +244,14 @@ class CastingCallController extends Controller {
                     $jsonCharacters[] = $characterArr;
                 }
             }
+
+            $languageProficiencies = LanguageProficiency::model()->findAll();
+            $jsonLanguageProficiencies = CJSON::encode($languageProficiencies);
+
             $this->render('view_applicants', array(
                 'jsonCharacters' => json_encode($jsonCharacters),
                 'jsonCastingCall' => json_encode(array('title' => $castingCall->title, 'url' => $url)),
+                'jsonLanguageProficiencies' => $jsonLanguageProficiencies,
             ));
         }
     }

@@ -17,6 +17,7 @@
 <script>
     var jsonCharacters = <?php print_r($jsonCharacters); ?>;
     var jsonCastingCall = <?php print_r($jsonCastingCall); ?>;
+    var jsonLanguageProficiencies = <?php print_r($jsonLanguageProficiencies); ?>;
     
     $(function(){
         vac.init();

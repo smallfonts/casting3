@@ -4,6 +4,8 @@ function view_applicants_ctrl($scope, $http) {
     vac = $scope;
     $scope.baseUrl = baseUrl;
     $scope.characters = jsonCharacters;
+    $scope.languageProficiencies = jsonLanguageProficiencies;
+    
     
     //process artistePortfolios to add in character name
     //
@@ -23,6 +25,14 @@ function view_applicants_ctrl($scope, $http) {
     });
     
     $scope.selectedCharacter = 0;
+    
+    $scope.getLanguageProficiency = function(language_proficiencyid){
+        for (var i in $scope.languageProficiencies){
+            if ($scope.languageProficiencies[i].language_proficiencyid == language_proficiencyid) return $scope.languageProficiencies[i].name;
+        }
+        
+        return null;
+    }
     
     $scope.showApplicants = function(){
         $scope.artistePortfolios = new Array();
